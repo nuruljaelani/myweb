@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import * as React from "react"
-import Layout from "../components/layout,js";
+import Layout from "../components/layout.js";
 import image from "../images/IMG_20200729_100337@3.png"
 
 const HomePage = () => {
