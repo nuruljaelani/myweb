@@ -1,8 +1,5 @@
 import React from "react"
 import { Link } from "gatsby";
-import instagram from "../images/instagram.svg"
-import github from "../images/github-logo.svg"
-import linkedin from "../images/linkedin.svg"
 
 export default function Layout({ children }) {
   return (
@@ -27,23 +24,6 @@ export default function Layout({ children }) {
         <main>
             {children}
         </main>
-        <hr />
-        <footer className="mb-4 px-4 md:px-16 lg:px-40 flex justify-center py-4">
-          <div className="font-medium text-gray-600">
-            &copy; 2020 |
-          </div>
-          <div className="flex ml-2">
-            <a href="https://instagram.com/jay_qz" target="_">
-              <img src={instagram} alt="" className="w-4 md:w-6 mr-2" />
-            </a>
-            <a href="https://linkedin.com/in/nurul-jaelani" target="_">
-              <img src={linkedin} alt="" className="w-4 md:w-6 mr-2" />
-            </a>
-            <a href="https://github.com/nuruljaelani" target="_">
-              <img src={github} alt="" className="w-4 md:w-6" />
-            </a>
-          </div>
-        </footer>
     </div>
   )
 }
