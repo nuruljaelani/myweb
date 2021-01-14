@@ -21,7 +21,7 @@ const About = () => {
                     <div className="flex flex-col md:flex-row my-2 z-40 items-center">
                         <img src={img} alt="" className="w-auto md:w-64 lg:w-100 rounded-xl" />
                         <div className="text-gray-500 text-sm md:text-lg lg:text-2xl font-medium mt-4 pl-2 md:pl-4 lg:pl-6">
-                            My name is Nurul Jaelani. I'm Junior Web Developer. Some of technologies that i am working on are HTML, CSS, Javascript, Reactjs, Vuejs, Nodejs and basic Laravel.
+                            My name is Nurul Jaelani. I'm a beginner in Web Developer. Some of technologies that i am working on are HTML, CSS, Javascript, Reactjs, Vuejs, Nodejs.
                             I also have basic knowledge of Adobe Photoshop and Adobe Illustrator.
                         </div>
                     </div>

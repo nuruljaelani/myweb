@@ -21,7 +21,7 @@ const HomePage = () => {
                     <div className="flex flex-col w-1/2">
                         <p className="text-gray-400 text-lg md:text-2xl lg:text-3xl">Hello</p>
                         <p className="text-gray-700 text-2xl md:text-4xl lg:text-6xl font-extrabold my-1 md:my-2">I'm Nurul Jaelani</p>
-                        <p className="text-lg md:text-3xl lg:text-4xl font-semibold text-gray-500">Full-stack Web Developer</p>
+                        <p className="text-lg md:text-3xl lg:text-4xl font-semibold text-gray-500"></p>
                         <button className="bg-green-600 hover:bg-green-700 text-white font-semibold w-28 rounded py-2 mt-6 shadow-lg focus:outline-none text-xs md:text-base">
                             <Link to="/contact">Get In Touch</Link>
                         </button>
